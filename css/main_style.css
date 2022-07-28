@@ -1,0 +1,49 @@
+p {
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+}
+
+#about {
+    clear: left;
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+    right: 0;
+}
+
+.about-game {
+    position: relative;
+    top: 75px;
+}
+
+.description {
+    top: 75px;
+    padding: 3px 10px 3px 10px;
+    font-size: 24px;
+}
+
+hr {
+    color: rgb(70, 70, 70);
+}
+
+#mafia-img {
+    padding-top: 3px;
+    float: right;
+    overflow: auto;
+}
+
+#buttons_for_start {
+    background-color: dimgrey;
+    min-width: 460px;
+    position: fixed;
+    right: 0;
+    width: 458px;
+    height: 75px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    width: 150px;
+    height: 75px;
+    padding: 2px;
+}
