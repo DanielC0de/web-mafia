@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 /* Указываем box sizing */
 *,
 *::before,
@@ -79,6 +81,7 @@ select {
 
 body {
     background-color: rgb(200, 200, 200);
+    font-family: 'Playfair Display', serif;
 }
 
 ul {
@@ -102,16 +105,11 @@ li a {
     text-decoration: none;
     text-align: block;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 li a:hover {
     background-color: #111;
-}
-
-p {
-    padding: 3px 10px 3px 10px;
-    font-size: 20px;
 }
 
 #about {
@@ -119,25 +117,4 @@ p {
     background-color: rgb(70, 70, 70);
     position: absolute;
     right: 0;
-}
-
-.about-game {
-    position: relative;
-    top: 75px;
-}
-
-.description {
-    top: 75px;
-    padding: 3px 10px 3px 10px;
-    font-size: 24px;
-}
-
-hr {
-    color: rgb(70, 70, 70);
-}
-
-#mafia-img {
-    padding-top: 3px;
-    float: right;
-    overflow: auto;
 }

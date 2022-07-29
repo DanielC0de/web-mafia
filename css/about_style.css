@@ -1,0 +1,17 @@
+.website-description {
+    position: relative;
+    top: 75px;
+    font-size: 24px;
+    padding: 5px;
+}
+
+hr {
+    color: rgb(70, 70, 70);
+}
+
+#git-hub {
+    text-decoration: none;
+    color: rgb(100, 0, 0);
+    right: 0;
+    padding: 3px
+}
