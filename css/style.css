@@ -111,3 +111,10 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+#about {
+    clear: left;
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+    right: 0;
+}
