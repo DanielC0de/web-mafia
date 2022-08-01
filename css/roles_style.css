@@ -5,12 +5,11 @@
 
 }
 
-.mafia {
+div {
     clear: left;
     overflow: auto;
     position: relative;
     padding: 1px;
-    border: 2px solid rgb(75, 0, 0);
 }
 
 p {
