@@ -1,4 +1,4 @@
-.all_roles {
+.all-roles {
     position: relative;
     top: 75px;
     padding: 4px;
@@ -7,24 +7,60 @@
 
 div {
     clear: left;
-    overflow: auto;
     position: relative;
-    padding: 1px;
+    padding: 5px;
 }
 
 p {
     font-size: 22px;
-    text-align: justify;
 }
 
-h1,
-h2,
-h3 {
-    color: rgb(75, 0, 0);
-}
 
-img {
+.mafia-imgs {
     height: 400px;
     float: right;
     overflow: auto;
+}
+
+
+.red-squad-img {
+    height: 425px;
+    overflow: auto;
+    float: left;
+
+}
+
+.grey-squad,
+.additional-deck {
+    clear: left;
+    position: relative;
+    padding: 1px;
+    border: 1px solid rgb(70, 70, 70);
+    overflow: auto;
+}
+
+.grey-squad-img {
+    height: 400px;
+    overflow: auto;
+    float: right;
+    margin: 3px;
+}
+
+.add-black,
+.add-red,
+.add-grey {
+    overflow: auto;
+    clear: left;
+    border: none;
+}
+
+#courtesan-img {
+    height: 400px;
+    float: left;
+    margin-right: 8px;
+}
+
+.add-red-img {
+    height: 500px;
+    float: right;
 }
