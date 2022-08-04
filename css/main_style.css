@@ -7,6 +7,9 @@ p {
 .about-game {
     position: relative;
     top: 75px;
+    clear: left;
+    padding: 1px;
+    padding-top: 5px;
 }
 
 .description {
@@ -17,18 +20,20 @@ p {
 
 
 #mafia-img {
-    padding-top: 6px;
     float: right;
     overflow: auto;
+    margin-left: 3px;
+    height: 555px;
 }
 
-#buttons_for_start {
+.buttons_for_start {
     display: block;
     min-width: 460px;
     position: fixed;
     right: 0;
     width: 460px;
     height: 75px;
+    margin-top: 10px
 }
 
 .start-game {
@@ -41,6 +46,8 @@ p {
     color: white;
     width: 150px;
     height: 75px;
+    border-radius: 7px;
+    margin-right: 2px;
 }
 
 .start-game:hover {
