@@ -64,3 +64,9 @@ p {
     height: 500px;
     float: right;
 }
+
+.add-grey-img {
+    height: 500px;
+    float: left;
+    margin-right: 8px;
+}
