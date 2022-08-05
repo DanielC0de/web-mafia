@@ -11,15 +11,13 @@ div {
     padding: 5px;
 }
 
-p {
-    font-size: 22px;
-}
+
 
 
 .mafia-imgs {
-    height: 400px;
     float: right;
     overflow: auto;
+    height: 400px;
 }
 
 
@@ -27,22 +25,21 @@ p {
     height: 425px;
     overflow: auto;
     float: left;
-
 }
 
 .grey-squad,
 .additional-deck {
     clear: left;
     position: relative;
+    overflow: auto;
     padding: 1px;
     border: 1px solid rgb(70, 70, 70);
-    overflow: auto;
 }
 
 .grey-squad-img {
+    float: right;
     height: 400px;
     overflow: auto;
-    float: right;
     margin: 3px;
 }
 
@@ -55,18 +52,18 @@ p {
 }
 
 #courtesan-img {
-    height: 400px;
     float: left;
+    height: 400px;
     margin-right: 8px;
 }
 
 .add-red-img {
-    height: 500px;
     float: right;
+    height: 500px;
 }
 
 .add-grey-img {
-    height: 500px;
     float: left;
+    height: 500px;
     margin-right: 8px;
 }
