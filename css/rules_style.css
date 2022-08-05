@@ -20,16 +20,16 @@ p {
 }
 
 #leaderWithCard {
+    float: right;
     height: 350px;
     padding-top: 6px;
-    float: right;
 }
 
-.main_rules {
+.main-rules {
+    margin: 1px;
     background-color: rgb(70, 70, 70);
     color: white;
     border-radius: 8px;
-    margin: 1px;
     text-align: center;
 }
 
