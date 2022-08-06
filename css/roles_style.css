@@ -45,7 +45,8 @@ div {
 
 .add-black,
 .add-red,
-.add-grey {
+.add-grey,
+.add-leader {
     overflow: auto;
     clear: left;
     border: none;
@@ -66,4 +67,9 @@ div {
     float: left;
     height: 500px;
     margin-right: 8px;
+}
+
+.add-leader-img {
+    float: right;
+    height: 500px;
 }
