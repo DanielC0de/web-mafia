@@ -1,0 +1,32 @@
+.main {
+    position: relative;
+    top: 75px;
+    padding: 5px;
+    padding-left: 8px;
+}
+
+.the-main-phrase {
+    border: none;
+    background-color: rgb(70, 70, 70);
+    width: 450px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+    color: white;
+}
+
+.bold-italic-text {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.just-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
